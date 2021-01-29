@@ -8,8 +8,7 @@ const tableData = [
     provider: 'R$ 10.500,00',
     recomendedByLider: 'R$ 12.500,00',
     overnightStay: 'cotar',
-    comments: '2h cortesia',
-    icons: ''
+    comments: '2h cortesia'
   },
   {
     id: 2,
@@ -20,8 +19,7 @@ const tableData = [
     provider: 'R$ 10.500,00',
     recomendedByLider: 'R$ 12.500,00',
     overnightStay: 'cotar',
-    comments: '2h cortesia',
-    icons: ''
+    comments: '2h cortesia'
   }
 ]
 
@@ -57,11 +55,7 @@ const tableHeaders = [
   {
     name: 'comments',
     label: 'Observações'
-  },
-  {
-    name: 'icons',
-    label: 'Opções'
-  },
+  }
 ]
 
 export {

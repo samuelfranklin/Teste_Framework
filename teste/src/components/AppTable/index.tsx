@@ -3,12 +3,14 @@ import { useTable } from 'react-final-table'
 
 import { tableHeaders, tableData } from '../../Helpers';
 
+import './style.css'
+
 
 const AppTable: React.FC = () => {
   const {headers, rows} = useTable(tableHeaders, tableData);
 
   return (
-    <table>
+    <table id="app-table">
       <thead>
         <tr>
           { headers.map((header, idx) => (
