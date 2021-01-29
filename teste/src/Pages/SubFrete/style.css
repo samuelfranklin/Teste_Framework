@@ -1,0 +1,16 @@
+#sub-frete {
+  max-width: 100%;
+  width: 100vw;
+  height: 100vh;
+}
+
+#sub-frete main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container {
+  width: 100%;
+  max-width: 1300px;
+}
