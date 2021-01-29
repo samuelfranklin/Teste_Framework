@@ -1,48 +1,28 @@
 const tableData = [
   {
-    airplane: 'PP-LAY AIRBUSS',
-    pax: '8',
+    id: 1,
+    aircraft: 'PP-LAY AIRBUSS',
+    passenger: '8',
     partner: 'CAF',
     base: 'SSUB',
     provider: 'R$ 10.500,00',
-    recomend: 'R$ 12.500,00',
+    recomendedByLider: 'R$ 12.500,00',
     overnightStay: 'cotar',
     comments: '2h cortesia',
     icons: ''
   },
   {
-    airplane: 'PP-LAY AIRBUSS',
-    pax: '8',
+    id: 2,
+    aircraft: 'PP-LAY AIRBUSS',
+    passenger: '8',
     partner: 'CAF',
     base: 'SSUB',
     provider: 'R$ 10.500,00',
-    recomend: 'R$ 12.500,00',
+    recomendedByLider: 'R$ 12.500,00',
     overnightStay: 'cotar',
     comments: '2h cortesia',
     icons: ''
-  },
-  {
-    airplane: 'PP-LAY AIRBUSS',
-    pax: '8',
-    partner: 'CAF',
-    base: 'SSUB',
-    provider: 'R$ 10.500,00',
-    recomend: 'R$ 12.500,00',
-    overnightStay: 'cotar',
-    comments: '2h cortesia',
-    icons: ''
-  },
-  {
-    airplane: 'PP-LAY AIRBUSS',
-    pax: '8',
-    partner: 'CAF',
-    base: 'SSUB',
-    provider: 'R$ 10.500,00',
-    recomend: 'R$ 12.500,00',
-    overnightStay: 'cotar',
-    comments: '2h cortesia',
-    icons: ''
-  },
+  }
 ]
 
 const tableHeaders = [
@@ -79,8 +59,8 @@ const tableHeaders = [
     label: 'Observações'
   },
   {
-    name: '',
-    label: ''
+    name: 'icons',
+    label: 'Opções'
   },
 ]
 

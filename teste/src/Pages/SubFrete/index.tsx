@@ -1,6 +1,7 @@
 import React from 'react'
 
-import { AppHeader, AppMenuBar } from '../../components'
+import { AppHeader, AppMenuBar, AppTable } from '../../components'
+import { tableHeaders, tableData } from '../../Helpers';
 import {
 calcIcon,  
 contactIcon, 
@@ -38,8 +39,7 @@ return (
     <main>
       <div className="main-container">
         <AppMenuBar title="Sub Frete" />
-
-        {/* <Table items={} /> */}
+        <AppTable />
       </div>
       
     </main>
