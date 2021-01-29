@@ -37,9 +37,7 @@ return (
 
     <main>
       <div className="main-container">
-        <AppMenuBar title="Sub Frete">
-
-        </AppMenuBar>
+        <AppMenuBar title="Sub Frete" />
 
         {/* <Table items={} /> */}
       </div>

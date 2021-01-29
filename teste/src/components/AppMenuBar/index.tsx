@@ -13,13 +13,6 @@ interface AppMenuBarProps {
   title: string
 }
 
-// const buttons = [
-//   {icon: 'duplicateIcon', to: '', type: 'circular-button'},
-//   {icon: 'compareIcon', to: '', type: 'circular-button'},
-//   {icon: 'shareIcon', to: '', type: 'circular-button'},
-//   {icon: 'filterIcon', to: '', type: 'circular-button'}
-// ]
-
 const AppMenuBar: React.FC<AppMenuBarProps> = ({title, children}) => {
   return (
     <div className="menu-bar">
