@@ -1,12 +1,12 @@
 import React from 'react'
 
+import { AppHeader, AppMenuBar } from '../../components'
 import {
-  solIcon, 
-  calcIcon,  
-  contactIcon, 
-  chartIcon,
-  newDocumentIcon
-} from '../../assets/images/icons'
+calcIcon,  
+contactIcon, 
+chartIcon,
+newDocumentIcon,
+} from '../../assets/images/icons';
 
 import './style.css'
 
@@ -17,41 +17,33 @@ interface SubFreteProps {
 const SubFrete: React.FC<SubFreteProps> = () => {
 return (
   <div id="sub-frete" className="container">
-    <header className="app-header">
-      <div className="logo-container">
-        <img src={solIcon} alt="Sol"/>
+    <AppHeader>
+      <a href="">
+        <img src={calcIcon} alt="Calculadora"/>
+      </a>
+
+      <a href="">
+        <img src={contactIcon} alt="Contatos"/>
+      </a>
+
+      <a href="">
+        <img src={chartIcon} alt="Gráfico"/>
+      </a>
+
+      <a href="">
+        <img src={newDocumentIcon} alt="Novo Documento"/>
+      </a>
+    </AppHeader>
+
+    <main>
+      <div className="main-container">
+        <AppMenuBar title="Sub Frete">
+
+        </AppMenuBar>
+
+        {/* <Table items={} /> */}
       </div>
       
-      <div className="buttons-container">
-        <a href="">
-          <img src={calcIcon} alt="Calculadora"/>
-        </a>
-        <a href="">
-          <img src={contactIcon} alt="Contatos"/>
-        </a>
-        <a href="">
-          <img src={chartIcon} alt="Gráfico"/>
-        </a>
-        <a href="">
-          <img src={newDocumentIcon} alt="Novo Documento"/>
-        </a>
-      </div>
-
-    </header>
-    <div className="bread-crumbs"></div>
-    <div className="menu-bar">
-      {/*
-        title,
-        botao,
-        pesquisa,
-        botao redondo
-        botao redondo
-        botao redondo
-        botao redondo
-      */}
-    </div>
-    <main className="table-container">
-      {/* table */}
     </main>
     <footer>
       {/* exibindo, results per page, page next-page last-page */}
