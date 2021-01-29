@@ -1,0 +1,101 @@
+.menu-bar {
+  width: 100%;
+  margin: 1.4rem 0;
+
+  display: grid;
+  grid-template-rows: 7.5rem 1fr;
+  grid-template-columns: 1fr 4fr 1fr 1fr;
+  grid-template-areas: 
+    "title new-sublet-button search-sublet button-group"
+  ;
+}
+
+.menu-bar .title {
+  width: auto;
+  min-width: max-content;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.menu-bar .title h1 {
+  font: 500 2.5rem Roboto;
+}
+
+.menu-bar .title .breadcrumbs {
+  font: 300 1.6rem Roboto;
+}
+
+.new-sublet-button {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.new-sublet-button a {
+  width: 19rem;
+  height: 4rem;
+  border-radius: 4rem;
+  color: var(--color-text-in-primary);
+  background: var(--color-primary);
+  padding: 0 2.6rem;
+  font: 1.6rem Roboto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  text-decoration: none;
+}
+
+#search-sublet {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+#search-sublet .input-block {
+  margin: 0 1.4rem;
+}
+
+#search-sublet .input-block input {
+  width: 26rem;
+  height: 4rem;
+
+  border: 1px solid var(--color-secondary);
+  border-radius: 4rem;
+  background: var(--color-input-background);
+  border: 1px solid var(--color-line-in-white);
+  outline: 0;
+  padding: 0 1.6rem;
+  font: 1.6rem Roboto;
+}
+
+.button-group {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start
+}
+
+.button-group a {
+  width: 4rem;
+  height: 4rem;
+
+  border: 1px solid var(--color-secondary);
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-group a + a {
+  margin-left: 1.4rem;
+}
