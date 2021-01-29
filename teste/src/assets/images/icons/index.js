@@ -3,3 +3,8 @@ export { default as chartIcon } from './chart.svg';
 export { default as contactIcon } from './contact.svg';
 export { default as newDocumentIcon } from './newDocument.svg';
 export { default as solIcon } from './sol.svg';
+export { default as exitIcon } from './exit.svg';
+export { default as filterIcon } from './filter.svg';
+export { default as shareIcon } from './share.svg';
+export { default as compareIcon } from './compare.svg';
+export { default as duplicateIcon } from './duplicate.svg';
