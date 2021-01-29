@@ -1,4 +1,4 @@
-const items = [
+const tableData = [
   {
     airplane: 'PP-LAY AIRBUSS',
     pax: '8',
@@ -45,6 +45,46 @@ const items = [
   },
 ]
 
+const tableHeaders = [
+  {
+    name: 'aircraft',
+    label: 'Aeronave'
+  },
+  {
+    name: 'passenger',
+    label: 'PAX'
+  },
+  {
+    name: 'partner',
+    label: 'Parceiro'
+  },
+  {
+    name: 'base',
+    label: 'Base'
+  },
+  {
+    name: 'provider',
+    label: 'Fornecedor'
+  },
+  {
+    name: 'recomendedByLider',
+    label: 'Recomendado Lider'
+  },
+  {
+    name: 'overnightStay',
+    label: 'Pernoite'
+  },
+  {
+    name: 'comments',
+    label: 'Observações'
+  },
+  {
+    name: '',
+    label: ''
+  },
+]
+
 export {
-  items
+  tableData,
+  tableHeaders
 }
